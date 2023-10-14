@@ -48,7 +48,21 @@ int main(){
 		goto girisloc;
 	}
 	
-	printf("\n**Giris basarili!");
+	printf("\n**Giris basarili!");*/
+	
+
+	for(int x=0; x<11; x++){
+		for(int y=0; y<11; y++){
+			if(x==5 || x==y || y==5 || x+y==10){
+				printf("*");
+			}
+			else{
+				printf(" ");
+			}
+		}
+		printf("\n");
+		
+	}
 	
 	return 0;
 }
